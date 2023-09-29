@@ -1,0 +1,36 @@
+.section-initial {
+    background-color: rgb(228, 228, 228);
+}
+
+.presentation {
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 50px 0px;
+    line-height: 24px;
+}
+
+.title-presentation {
+    margin-bottom: 30px;
+    color: var(--color-title);  
+}
+
+.button-presentation {
+    width: 120px;
+    height: 40px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    margin-top: 20px;
+}
+
+.button-presentation:hover {
+    background-color: var(--color-houver);
+}
+
+.text {
+    background-color: blue;
+
+}

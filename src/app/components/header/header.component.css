@@ -1,0 +1,68 @@
+header{
+    background-image: url("../../../assets/img/header-section.png");
+    background-size: cover;
+    background-position: center;
+    color: var(--color-white);
+    position: relative;
+    
+}
+
+.navbar {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: rgba(12, 12, 12, 0.788);
+    font-weight: 500;
+    font-size: .8em;
+}
+
+.logotipo {
+    color: var(--color-white);
+    padding: 0px 5px;
+}
+
+.navigation, .option, ul, li {
+    display: flex;
+    color: var(--color-white);
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 5px;
+    
+}
+
+.agendamento{
+    max-width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    margin: auto;
+   
+}
+
+.presentation-title {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-initial {
+    font-size: 2em;
+    margin-bottom: 12px;
+}
+
+.button-style{
+    width: 120px;
+    height: 40px;
+    background-color: var(--color-blue);  /* variavel para essas cores */
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.button-style:hover {
+    background-color: var(--color-houver);
+    opacity:70%;
+}

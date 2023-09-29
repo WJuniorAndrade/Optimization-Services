@@ -1,0 +1,52 @@
+/* FORMULARIO */
+.section-form {
+    height: 100vh; /* Avaliar a usabilidade deste  */
+    background-color: rgb(249, 249, 249);
+}
+
+.form-container {
+    max-width: 90vw;
+    margin: auto;
+    display: block;
+}
+
+.input-single{
+    width: 100%;
+    position: relative;
+    margin: 30px 0px;
+}
+
+.input-single label {
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+    color: rgb(79, 78, 78);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+
+}
+
+.input-single .input-container {
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(79, 78, 78);
+    background-color: transparent;
+    padding: 10px;
+    outline: 0; 
+
+}
+
+.input-single .input-container:focus,
+.input-single .input-container:valid {
+    border: 0;
+    border-bottom: 2px solid cornflowerblue;
+    transition: 0.5s;
+}
+
+.input-single .input-container:focus ~label,
+.input-single .input-container:valid ~label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: cornflowerblue;
+}
